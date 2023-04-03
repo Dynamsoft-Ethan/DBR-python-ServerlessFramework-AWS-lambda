@@ -40,10 +40,8 @@ configure the layer and upload `/layers/dbr@9.6.20/python.zip`
 ![add DBR layer](https://tst.dynamsoft.com/team/ethan/github/add_layer.jpg)
 
 
-6. Test lambda function 
-Click test on Lambda function console
-or
-test lambda function through sls cli:
+6. 
+test the lambda function:
 ```
 sls invoke -f hello
 ```
