@@ -1,20 +1,20 @@
 # DBR-on-AWS-lambda
 Learn how to use dynamsoft barcode reader on AWS lambda
-# sample environment:
-python: 3.9
-lambda function: x86_64
-aws-cli: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-serverless framework cli: https://www.serverless.com/framework/docs/providers/aws/cli-reference
+## sample environment:
+python: 3.9\n
+lambda function: x86_64\n
+aws-cli: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html\n
+serverless framework cli: https://www.serverless.com/framework/docs/providers/aws/cli-reference\n
 
-# Dynamsoft barcode reader version:
+## Dynamsoft barcode reader version:
 dbr: 9.6.20
 
-# RUN the sample
+## RUN the sample
 1. configure aws credentials
 ```
 aws configure
 ```
-2. modify aws region and progile in `serverless.yml`
+2. modify aws region and your profile(aws credential) in `serverless.yml`
 ```
 #change aws region here
 region: ap-east-1
