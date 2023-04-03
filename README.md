@@ -35,7 +35,8 @@ You can see the function is created on [lambda](https://ap-east-1.console.aws.am
 
 
 4. 
-add dbr dependency layer: 
+add dbr dependency layer
+
 go to [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region** -> AWS Lambda -> Layers -> Create layer
 
 configure the layer and upload `/layers/dbr@9.6.20/python.zip`
