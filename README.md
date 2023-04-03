@@ -61,6 +61,7 @@ configure the layer and upload the `python.zip` file from `/layers/dbr@9.6.20/py
 ![create DBR layer](https://tst.dynamsoft.com/team/ethan/github/create_layer.jpg)
 
 2. create lambda function
+copy the code from /handler.py into your function
 
 3. Then add Custom layer.
 ![add DBR layer](https://tst.dynamsoft.com/team/ethan/github/add_layer.jpg)
