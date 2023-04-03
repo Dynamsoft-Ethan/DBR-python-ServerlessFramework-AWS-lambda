@@ -10,7 +10,7 @@ Learn dynamsoft barcode reader in AWS lambda with python through aws cli and ser
 ## Dynamsoft barcode reader version:
 dbr: [9.6.20](https://pypi.org/project/dbr/#files)
 
-## RUN the sample with ServerlessFramework cli
+## RUN the example with ServerlessFramework cli
 1. 
 configure aws credentials
 ```
@@ -59,7 +59,7 @@ expected tesult:
 ]
 ```
 
-## RUN the sample with AWS console
+## Run the example using the AWS console
 1. 
 add dbr dependency layer: 
 go to [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region** -> AWS Lambda -> Layers -> Create layer
