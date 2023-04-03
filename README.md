@@ -1,5 +1,5 @@
 # DBR-on-AWS-lambda
-Learn how to use dynamsoft barcode reader on AWS lambda
+Learn dynamsoft barcode reader in AWS lambda with python through aws cli, and serverless framework cli.
 ## sample environment:
 1. python: 3.9
 2. lambda function: x86_64
