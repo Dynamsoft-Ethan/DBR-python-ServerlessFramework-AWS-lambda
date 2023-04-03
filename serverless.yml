@@ -11,7 +11,9 @@ provider:
 # if you are using aws cli the first time, the profile should be 'default'.
 # (on mac) find all your profiles in ~/.aws/credentials
   profile: ServerlessFrameworkUser
-
+package:
+  exclude:
+    - layers/**
 functions:
   hello:
     handler: handler.hello
