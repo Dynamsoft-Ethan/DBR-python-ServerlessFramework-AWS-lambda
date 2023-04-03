@@ -36,7 +36,7 @@ go to [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-ea
 configure the layer and upload `/layers/dbr@9.6.20/python.zip`
 ![create DBR layer](https://tst.dynamsoft.com/team/ethan/github/create_layer.jpg)
 
-5. After the layer is created, please go to `dbr-tester-dev-hello` function. Then add Custom layer.
+5. After the layer is created, please go to `dbr-tester-dev-hello` function. Then add DBR layer as a Custom layer.
 ![add DBR layer](https://tst.dynamsoft.com/team/ethan/github/add_layer.jpg)
 
 
