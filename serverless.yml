@@ -1,0 +1,18 @@
+service: dbr-tester
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  #change aws region here
+  region: ap-east-1
+# change your credential profile here
+# if you are using aws cli the first time, the profile should be 'default'.
+# (on mac) find all your profiles in ~/.aws/credentials
+  profile: ServerlessFrameworkUser
+
+functions:
+  hello:
+    handler: handler.hello
+
