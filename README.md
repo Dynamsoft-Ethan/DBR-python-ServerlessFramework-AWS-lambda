@@ -3,8 +3,9 @@ Learn dynamsoft barcode reader in AWS lambda with python through aws cli and ser
 ## sample environment:
 1. python: 3.9
 2. lambda function: x86_64
-3. [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-4. newer version of [serverless framework cli](https://www.serverless.com/framework/docs/providers/aws/cli-reference) is prefered
+3. [create IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+4. [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+5. newer version of [serverless framework cli](https://www.serverless.com/framework/docs/providers/aws/cli-reference) is prefered
 
 ## Dynamsoft barcode reader version:
 dbr: 9.6.20
