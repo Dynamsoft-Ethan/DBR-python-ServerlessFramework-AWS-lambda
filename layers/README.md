@@ -1,4 +1,4 @@
-# CREATE any version of DBR layer of any architecture 
+# Create any version of the DBR layer for any architecture
 
 1. download `.whl` file from https://pypi.org/project/dbr/#files
 
