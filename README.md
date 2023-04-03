@@ -9,7 +9,7 @@ Learn how to use dynamsoft barcode reader on AWS lambda
 ## Dynamsoft barcode reader version:
 dbr: 9.6.20
 
-## RUN the sample
+## RUN the sample with ServerlessFramework cli
 1. configure aws credentials
 ```
 aws configure
@@ -45,9 +45,29 @@ test lambda function through sls cli:
 ```
 sls invoke -f hello
 ```
-6. Result:
+6. expected tesult:
 ```
 [
     "dynamsoft is awesome"
+]
+```
+
+## RUN the sample with AWS console
+1. add dbr dependency layer: 
+go to [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region** -> AWS Lambda -> Layers -> Create layer
+
+configure the layer and upload the `python.zip` file from `/layers/dbr@9.6.20/python.zip`
+![create DBR layer](https://tst.dynamsoft.com/team/ethan/github/create_layer.jpg)
+
+2. create lambda function
+
+3. Then add Custom layer.
+![add DBR layer](https://tst.dynamsoft.com/team/ethan/github/add_layer.jpg)
+
+4. run test 
+expected test result:
+```
+[
+  "dynamsoft is awesome"
 ]
 ```
