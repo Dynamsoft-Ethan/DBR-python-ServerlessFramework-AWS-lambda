@@ -27,25 +27,27 @@ profile: ServerlessFrameworkUser
 ```
 sls deploy
 ```
-You can see the function is created on [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region**
+You can see the function is created on [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region**.
+
+
 4. add dbr dependency layer: 
 go to [lambda](https://ap-east-1.console.aws.amazon.com/lambda/home?region=ap-east-1#/functions/dbr-tester-dev-hello?tab=code) in **your aws region** -> AWS Lambda -> Layers -> Create layer
 
 configure the layer and upload the `python.zip` file from `/layers/dbr@9.6.20/python.zip`
 ![create DBR layer](https://tst.dynamsoft.com/team/ethan/github/create_layer.jpg)
 
-After the layer is created, please go to `dbr-tester-dev-hello` function. Then add Custom layer.
+5. After the layer is created, please go to `dbr-tester-dev-hello` function. Then add Custom layer.
 ![add DBR layer](https://tst.dynamsoft.com/team/ethan/github/add_layer.jpg)
 
 
-5. Test lambda function 
+6. Test lambda function 
 Click test on Lambda function console
 or
 test lambda function through sls cli:
 ```
 sls invoke -f hello
 ```
-6. expected tesult:
+expected tesult:
 ```
 [
     "dynamsoft is awesome"
